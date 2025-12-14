@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+    <!--font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- offerbar -->
+    <div class="offerbar" id="offerbar">
+        <p>Sign Up and <strong> GET 20% OFF</strong> for your first Order </p>
+        <span class="close" onclick="closeofferbar()">X</span>
+    </div>
+    <!-- navbar -->
+    <div class="navbar">
+        <h1>Nostra</h1>
+        <ul class="navbar_s1">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html">New Arrival</a></li>
+            <li><a href="./index.html">Most Wanted</a></li>
+            <li><a href="./collections.html">Collections</a></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+        <i class="fa-solid fa-bars" id="openSidebar"></i>
+
+    </div>
+
+    <!-- Mobile Sidebar -->
+    <div class="mobile_sidebar" id="mobileSidebar">
+        <span class="close_sidebar" id="closeSidebar">&times;</span>
+
+        <a href="./index.html">Home</a>
+        <a href="./index.html">New Arrival</a>
+        <a href="./index.html">Most Wanted</a>
+        <a href="./collections.html">Collections</a>
+        <a href="./contact.html">Contact Us</a>
+    </div>
+
+    <!-- contact section -->
+    <div class="contact-section">
+        <h1>Contact Us</h1>
+        <form class="contact-form">
+            <p>Name</p>
+            <input type="text" placeholder="Your Name" required>
+            <p>Email</p>
+            <input type="email" placeholder="Your Email" required>
+            <p>Message</p>
+            <textarea placeholder="Your Message" required></textarea>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- NEWSLETTER SECTION -->
+    <section class="newsletter-section">
+        <h2>Join our News Letter</h2>
+        <p>Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+
+        <input type="email" placeholder="Enter your email">
+        <button class="subscribe-btn">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <h2>Nostra</h2>
+        <p>The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interest</p>
+
+        <div class="footer-icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+        </div>
+
+        <h4>© 2023 Nostra.com</h4>
+    </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
